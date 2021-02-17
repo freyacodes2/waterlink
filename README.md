@@ -136,7 +136,7 @@ discord.AddHandler(session *discordgo.Session, event *discordgo.VoiceServerUpdat
 Use the code below to join a guild's voice channel. After that music can be [played](#play-a-track).
 
 ```go
-err := dg.ChannelVoiceJoinManual("guildID", "voiceChannelID", false, false)
+err := discord.ChannelVoiceJoinManual("guildID", "voiceChannelID", false, false)
 
 // handle error
 ```
