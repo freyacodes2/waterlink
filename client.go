@@ -32,6 +32,7 @@ func New(options ...Option) (*Client, error) {
 	c := &Client{
 		httpHost: "http://localhost:8080",
 		wsHost:   "ws://localhost:8080",
+		userID:   "0",
 	}
 
 	// apply options
